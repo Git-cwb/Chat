@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        a {
+            width: 200px;
+            height: 20px;
+            margin: 5px;
+            float: left;
+        }
+
+        h3 {
+            width: 100px;
+        }
+
+        hr {
+            width: 10000px;
+        }
+    </style>
+
+</head>
+<body ng-app="chat" ng-controller="chatController">
+<h1>选择要登录的角色：</h1>
+<br>
+<div ng-repeat="(key,userList) in userMap">
+
+    <div ng-if="key === '0'">
+        <h3>客服：</h3>
+        <a ng-repeat="userName in userList">{{userName}}</a>
+        <hr>
+    </div>
+
+
+    <div ng-if="key === '1'">
+        <h3>企业：</h3>
+        <a ng-repeat="userName in userList">{{userName}}</a>
+        <hr>
+    </div>
+
+
+    <div ng-if="key === '2'">
+        <h3>人才：</h3>
+        <a ng-repeat="userName in userList">{{userName}}</a>
+    </div>
+</div>
+
+</body>
+<script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"></script>
+<script type="text/javascript" src="../js/controller/chatController.js"></script>
+
+</html>

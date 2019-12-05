@@ -1,0 +1,878 @@
+2019-12-05 09:35:09.149  INFO 9444 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 9444 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 09:35:09.179  INFO 9444 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 09:35:11.052  INFO 9444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 09:35:11.064  INFO 9444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 09:35:11.064  INFO 9444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 09:35:11.068  INFO 9444 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 09:35:11.068  INFO 9444 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 09:35:11.068  INFO 9444 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 09:35:11.073  INFO 9444 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 09:35:11.184  INFO 9444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 09:35:11.185  INFO 9444 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1897 ms
+2019-12-05 09:35:11.438  INFO 9444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 09:35:11.502  INFO 9444 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 09:35:11.653  INFO 9444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 09:35:11.656  INFO 9444 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 3.713 seconds (JVM running for 5.983)
+2019-12-05 09:35:23.040  INFO 9444 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 09:35:23.041  INFO 9444 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 09:35:23.048  INFO 9444 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 09:36:33.508  INFO 9444 --- [http-nio-80-exec-4] c.c.zxh.chat.controller.ChatController   : 新用户['小白']注册成功!
+2019-12-05 10:19:02.675  INFO 12044 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 12044 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 10:19:02.680  INFO 12044 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 10:19:03.869  INFO 12044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 10:19:03.878  INFO 12044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 10:19:03.879  INFO 12044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 10:19:03.881  INFO 12044 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 10:19:03.881  INFO 12044 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 10:19:03.881  INFO 12044 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 10:19:03.885  INFO 12044 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 10:19:03.965  INFO 12044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 10:19:03.965  INFO 12044 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1192 ms
+2019-12-05 10:19:04.188  INFO 12044 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 10:19:04.255  INFO 12044 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 10:19:04.376  INFO 12044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 10:19:04.380  INFO 12044 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.472 seconds (JVM running for 3.467)
+2019-12-05 10:19:22.353  INFO 12044 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 10:19:22.354  INFO 12044 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 10:19:22.364  INFO 12044 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-05 10:42:06.435  INFO 13028 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 13028 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 10:42:06.440  INFO 13028 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 10:42:07.755  INFO 13028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 10:42:07.765  INFO 13028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 10:42:07.765  INFO 13028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 10:42:07.767  INFO 13028 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 10:42:07.767  INFO 13028 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 10:42:07.767  INFO 13028 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 10:42:07.771  INFO 13028 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 10:42:07.852  INFO 13028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 10:42:07.852  INFO 13028 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1312 ms
+2019-12-05 10:42:08.044  INFO 13028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 10:42:08.106  INFO 13028 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 10:42:08.222  INFO 13028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 10:42:08.225  INFO 13028 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.518 seconds (JVM running for 3.465)
+2019-12-05 10:42:33.272  INFO 13028 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 10:42:33.273  INFO 13028 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 10:42:33.283  INFO 13028 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-05 10:43:32.898  INFO 4204 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 4204 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 10:43:32.902  INFO 4204 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 10:43:34.088  INFO 4204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 10:43:34.097  INFO 4204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 10:43:34.097  INFO 4204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 10:43:34.099  INFO 4204 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 10:43:34.099  INFO 4204 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 10:43:34.099  INFO 4204 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 10:43:34.103  INFO 4204 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 10:43:34.179  INFO 4204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 10:43:34.180  INFO 4204 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1174 ms
+2019-12-05 10:43:34.360  INFO 4204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 10:43:34.425  INFO 4204 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 10:43:34.536  INFO 4204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 10:43:34.540  INFO 4204 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.321 seconds (JVM running for 3.277)
+2019-12-05 10:43:40.915  INFO 4204 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 10:43:40.916  INFO 4204 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 10:43:40.923  INFO 4204 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 10:44:15.223  INFO 14312 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 14312 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 10:44:15.227  INFO 14312 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 10:44:16.434  INFO 14312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 10:44:16.443  INFO 14312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 10:44:16.444  INFO 14312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 10:44:16.445  INFO 14312 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 10:44:16.446  INFO 14312 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 10:44:16.446  INFO 14312 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 10:44:16.449  INFO 14312 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 10:44:16.527  INFO 14312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 10:44:16.528  INFO 14312 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1210 ms
+2019-12-05 10:44:16.727  INFO 14312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 10:44:16.791  INFO 14312 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 10:44:16.898  INFO 14312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 10:44:16.902  INFO 14312 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.357 seconds (JVM running for 3.265)
+2019-12-05 10:44:33.115  INFO 14312 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 10:44:33.116  INFO 14312 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 10:44:33.121  INFO 14312 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 10:50:03.273  INFO 9808 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 9808 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 10:50:03.279  INFO 9808 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 10:50:04.509  INFO 9808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 10:50:04.521  INFO 9808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 10:50:04.522  INFO 9808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 10:50:04.523  INFO 9808 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 10:50:04.524  INFO 9808 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 10:50:04.524  INFO 9808 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 10:50:04.528  INFO 9808 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 10:50:04.604  INFO 9808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 10:50:04.605  INFO 9808 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1230 ms
+2019-12-05 10:50:04.786  INFO 9808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 10:50:04.850  INFO 9808 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 10:50:04.959  INFO 9808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 10:50:04.962  INFO 9808 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.344 seconds (JVM running for 3.253)
+2019-12-05 10:50:19.454  INFO 9808 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 10:50:19.454  INFO 9808 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 10:50:19.462  INFO 9808 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 11:26:06.949  INFO 10452 --- [main] cn.com.zxh.chat.ChatApplicationTests     : Starting ChatApplicationTests on DESKTOP-JJE9HDG with PID 10452 (started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:26:06.952  INFO 10452 --- [main] cn.com.zxh.chat.ChatApplicationTests     : No active profile set, falling back to default profiles: default
+2019-12-05 11:26:09.428  INFO 10452 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:26:09.666  INFO 10452 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:26:09.921  INFO 10452 --- [main] cn.com.zxh.chat.ChatApplicationTests     : Started ChatApplicationTests in 3.717 seconds (JVM running for 6.165)
+2019-12-05 11:26:10.480  INFO 10452 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:27:57.991  INFO 11896 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 11896 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:27:57.996  INFO 11896 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:27:59.512  INFO 11896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:27:59.528  INFO 11896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:27:59.528  INFO 11896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:27:59.530  INFO 11896 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:27:59.531  INFO 11896 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:27:59.531  INFO 11896 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:27:59.536  INFO 11896 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:27:59.640  INFO 11896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:27:59.640  INFO 11896 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1555 ms
+2019-12-05 11:27:59.917  INFO 11896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:27:59.995  INFO 11896 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:28:00.162  INFO 11896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:28:00.166  INFO 11896 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.819 seconds (JVM running for 3.906)
+2019-12-05 11:28:10.276  INFO 11896 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:28:10.277  INFO 11896 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:28:10.284  INFO 11896 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 11:30:35.018  INFO 13612 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 13612 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:30:35.023  INFO 13612 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:30:36.898  INFO 13612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:30:36.911  INFO 13612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:30:36.911  INFO 13612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:30:36.913  INFO 13612 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:30:36.914  INFO 13612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:30:36.914  INFO 13612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:30:36.918  INFO 13612 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:30:37.071  INFO 13612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:30:37.072  INFO 13612 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1967 ms
+2019-12-05 11:30:37.354  INFO 13612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:30:37.435  INFO 13612 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:30:37.581  INFO 13612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:30:37.586  INFO 13612 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 3.362 seconds (JVM running for 4.642)
+2019-12-05 11:30:50.706  INFO 13612 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:30:50.706  INFO 13612 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:30:50.715  INFO 13612 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-05 11:31:46.929  INFO 6948 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 6948 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:31:46.937  INFO 6948 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:31:48.209  INFO 6948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:31:48.220  INFO 6948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:31:48.221  INFO 6948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:31:48.224  INFO 6948 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:31:48.224  INFO 6948 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:31:48.224  INFO 6948 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:31:48.229  INFO 6948 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:31:48.326  INFO 6948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:31:48.326  INFO 6948 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1308 ms
+2019-12-05 11:31:48.507  INFO 6948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:31:48.572  INFO 6948 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:31:48.681  INFO 6948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:31:48.685  INFO 6948 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.466 seconds (JVM running for 3.444)
+2019-12-05 11:31:53.676  INFO 6948 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:31:53.677  INFO 6948 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:31:53.683  INFO 6948 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 11:32:27.400  INFO 12096 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 12096 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:32:27.405  INFO 12096 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:32:28.646  INFO 12096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:32:28.655  INFO 12096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:32:28.655  INFO 12096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:32:28.656  INFO 12096 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:32:28.657  INFO 12096 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:32:28.657  INFO 12096 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:32:28.660  INFO 12096 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:32:28.741  INFO 12096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:32:28.741  INFO 12096 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1251 ms
+2019-12-05 11:32:28.921  INFO 12096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:32:28.988  INFO 12096 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:32:29.106  INFO 12096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:32:29.109  INFO 12096 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.378 seconds (JVM running for 3.345)
+2019-12-05 11:32:32.932  INFO 12096 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:32:32.932  INFO 12096 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:32:32.938  INFO 12096 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 11:32:33.067  INFO 12096 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:33:53.487  INFO 7608 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 7608 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:33:53.491  INFO 7608 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:33:54.798  INFO 7608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:33:54.807  INFO 7608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:33:54.808  INFO 7608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:33:54.809  INFO 7608 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:33:54.810  INFO 7608 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:33:54.810  INFO 7608 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:33:54.814  INFO 7608 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:33:54.895  INFO 7608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:33:54.895  INFO 7608 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1319 ms
+2019-12-05 11:33:55.070  INFO 7608 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:33:55.135  INFO 7608 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:33:55.258  INFO 7608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:33:55.261  INFO 7608 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.511 seconds (JVM running for 3.456)
+2019-12-05 11:33:59.423  INFO 7608 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:33:59.423  INFO 7608 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:33:59.431  INFO 7608 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-05 11:33:59.559  INFO 7608 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:34:03.975  INFO 7608 --- [http-nio-80-exec-5] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:35:10.568  INFO 7608 --- [http-nio-80-exec-10] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:35:54.092  INFO 2256 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 2256 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:35:54.096  INFO 2256 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:35:55.291  INFO 2256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:35:55.300  INFO 2256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:35:55.301  INFO 2256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:35:55.302  INFO 2256 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:35:55.303  INFO 2256 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:35:55.303  INFO 2256 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:35:55.306  INFO 2256 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:35:55.401  INFO 2256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:35:55.402  INFO 2256 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1216 ms
+2019-12-05 11:35:55.580  INFO 2256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:35:55.644  INFO 2256 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:35:55.759  INFO 2256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:35:55.764  INFO 2256 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.337 seconds (JVM running for 3.31)
+2019-12-05 11:35:58.974  INFO 2256 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:35:58.975  INFO 2256 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:35:58.982  INFO 2256 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 11:35:59.098  INFO 2256 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:38:14.435  INFO 14024 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 14024 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:38:14.440  INFO 14024 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:38:15.662  INFO 14024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:38:15.670  INFO 14024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:38:15.671  INFO 14024 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:38:15.673  INFO 14024 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:38:15.674  INFO 14024 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:38:15.674  INFO 14024 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:38:15.679  INFO 14024 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:38:15.778  INFO 14024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:38:15.778  INFO 14024 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1245 ms
+2019-12-05 11:38:15.960  INFO 14024 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:38:16.022  INFO 14024 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:38:16.131  INFO 14024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:38:16.135  INFO 14024 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.359 seconds (JVM running for 3.351)
+2019-12-05 11:38:22.634  INFO 14024 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:38:22.635  INFO 14024 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:38:22.642  INFO 14024 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 11:38:22.794  INFO 14024 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:39:44.371  INFO 13136 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 13136 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:39:44.377  INFO 13136 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:39:45.688  INFO 13136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:39:45.699  INFO 13136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:39:45.700  INFO 13136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:39:45.702  INFO 13136 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:39:45.702  INFO 13136 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:39:45.702  INFO 13136 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:39:45.706  INFO 13136 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:39:45.817  INFO 13136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:39:45.818  INFO 13136 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1370 ms
+2019-12-05 11:39:46.079  INFO 13136 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:39:46.155  INFO 13136 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:39:46.301  INFO 13136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:39:46.307  INFO 13136 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.564 seconds (JVM running for 5.132)
+2019-12-05 11:39:50.472  INFO 13136 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:39:50.472  INFO 13136 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:39:50.482  INFO 13136 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-05 11:39:50.621  INFO 13136 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:40:35.530  INFO 13136 --- [http-nio-80-exec-5] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:43:46.711  INFO 13136 --- [http-nio-80-exec-8] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:45:50.461  INFO 13136 --- [http-nio-80-exec-1] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:45:58.675  INFO 13136 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:46:05.529  INFO 12388 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 12388 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:46:05.534  INFO 12388 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:46:06.956  INFO 12388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:46:06.964  INFO 12388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:46:06.965  INFO 12388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:46:06.967  INFO 12388 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:46:06.967  INFO 12388 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:46:06.967  INFO 12388 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:46:06.971  INFO 12388 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:46:07.051  INFO 12388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:46:07.051  INFO 12388 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1428 ms
+2019-12-05 11:46:07.233  INFO 12388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:46:07.315  INFO 12388 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:46:07.432  INFO 12388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:46:07.436  INFO 12388 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.548 seconds (JVM running for 3.517)
+2019-12-05 11:46:10.734  INFO 12388 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:46:10.735  INFO 12388 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:46:10.742  INFO 12388 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 11:46:10.869  INFO 12388 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:46:43.383  INFO 11164 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 11164 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:46:43.386  INFO 11164 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:46:44.642  INFO 11164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:46:44.652  INFO 11164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:46:44.652  INFO 11164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:46:44.653  INFO 11164 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:46:44.654  INFO 11164 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:46:44.655  INFO 11164 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:46:44.658  INFO 11164 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:46:45.561  INFO 11164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:46:45.562  INFO 11164 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2092 ms
+2019-12-05 11:46:45.730  INFO 11164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:46:45.797  INFO 11164 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:46:45.912  INFO 11164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:46:45.916  INFO 11164 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 3.182 seconds (JVM running for 4.261)
+2019-12-05 11:46:48.342  INFO 11164 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:46:48.342  INFO 11164 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:46:48.348  INFO 11164 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 11:46:48.473  INFO 11164 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:47:29.896  INFO 13388 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 13388 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:47:29.902  INFO 13388 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:47:31.528  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:47:31.537  INFO 13388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:47:31.538  INFO 13388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:47:31.540  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:47:31.540  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:47:31.540  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:47:31.544  INFO 13388 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:47:31.629  INFO 13388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:47:31.630  INFO 13388 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1581 ms
+2019-12-05 11:47:31.849  INFO 13388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:47:31.928  INFO 13388 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:47:32.057  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:47:32.064  INFO 13388 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.823 seconds (JVM running for 3.757)
+2019-12-05 11:47:32.126  INFO 13388 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:47:32.127  INFO 13388 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:47:32.135  INFO 13388 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-05 11:47:32.245  INFO 13388 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:49:06.585  INFO 2148 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 2148 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:49:06.590  INFO 2148 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:49:08.077  INFO 2148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:49:08.093  INFO 2148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:49:08.094  INFO 2148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:49:08.096  INFO 2148 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:49:08.096  INFO 2148 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:49:08.097  INFO 2148 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:49:08.101  INFO 2148 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:49:08.217  INFO 2148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:49:08.218  INFO 2148 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1516 ms
+2019-12-05 11:49:08.469  INFO 2148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:49:08.539  INFO 2148 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:49:08.669  INFO 2148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:49:08.676  INFO 2148 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.791 seconds (JVM running for 3.75)
+2019-12-05 11:49:09.476  INFO 2148 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:49:09.478  INFO 2148 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:49:09.488  INFO 2148 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-05 11:49:09.748  INFO 2148 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:49:49.996  INFO 360 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 360 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:49:50.001  INFO 360 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:49:51.276  INFO 360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:49:51.285  INFO 360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:49:51.285  INFO 360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:49:51.287  INFO 360 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:49:51.287  INFO 360 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:49:51.287  INFO 360 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:49:51.290  INFO 360 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:49:51.372  INFO 360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:49:51.372  INFO 360 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1284 ms
+2019-12-05 11:49:51.552  INFO 360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:49:51.637  INFO 360 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:49:51.781  INFO 360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:49:51.785  INFO 360 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.451 seconds (JVM running for 3.665)
+2019-12-05 11:49:54.960  INFO 360 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:49:54.961  INFO 360 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:49:54.966  INFO 360 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 11:49:55.098  INFO 360 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 11:50:59.629  INFO 5340 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 5340 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 11:50:59.634  INFO 5340 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 11:51:01.845  INFO 5340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 11:51:01.859  INFO 5340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 11:51:01.860  INFO 5340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 11:51:01.863  INFO 5340 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 11:51:01.864  INFO 5340 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 11:51:01.864  INFO 5340 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 11:51:01.869  INFO 5340 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 11:51:01.979  INFO 5340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 11:51:01.980  INFO 5340 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2268 ms
+2019-12-05 11:51:02.166  INFO 5340 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 11:51:02.232  INFO 5340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 11:51:02.357  INFO 5340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 11:51:02.361  INFO 5340 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 3.394 seconds (JVM running for 4.86)
+2019-12-05 11:51:05.279  INFO 5340 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 11:51:05.279  INFO 5340 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 11:51:05.305  INFO 5340 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-12-05 11:51:05.443  INFO 5340 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:22:41.514  INFO 900 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 900 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:22:41.522  INFO 900 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:22:42.689  INFO 900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:22:42.698  INFO 900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:22:42.698  INFO 900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:22:42.700  INFO 900 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:22:42.700  INFO 900 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:22:42.700  INFO 900 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:22:42.703  INFO 900 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:22:42.783  INFO 900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:22:42.784  INFO 900 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1181 ms
+2019-12-05 12:22:42.963  INFO 900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:22:43.029  INFO 900 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:22:43.145  INFO 900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:22:43.148  INFO 900 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.352 seconds (JVM running for 3.507)
+2019-12-05 12:22:46.884  INFO 900 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:22:46.884  INFO 900 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:22:46.890  INFO 900 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 12:22:47.012  INFO 900 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:23:37.548  INFO 12644 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 12644 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:23:37.552  INFO 12644 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:23:38.720  INFO 12644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:23:38.731  INFO 12644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:23:38.732  INFO 12644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:23:38.735  INFO 12644 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:23:38.735  INFO 12644 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:23:38.735  INFO 12644 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:23:38.740  INFO 12644 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:23:38.831  INFO 12644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:23:38.831  INFO 12644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1201 ms
+2019-12-05 12:23:39.059  INFO 12644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:23:39.139  INFO 12644 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:23:39.274  INFO 12644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:23:39.278  INFO 12644 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.387 seconds (JVM running for 3.371)
+2019-12-05 12:23:41.625  INFO 12644 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:23:41.626  INFO 12644 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:23:41.632  INFO 12644 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 12:23:41.770  INFO 12644 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:24:20.427  INFO 6472 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 6472 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:24:20.433  INFO 6472 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:24:21.722  INFO 6472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:24:21.735  INFO 6472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:24:21.736  INFO 6472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:24:21.738  INFO 6472 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:24:21.739  INFO 6472 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:24:21.739  INFO 6472 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:24:21.743  INFO 6472 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:24:21.844  INFO 6472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:24:21.844  INFO 6472 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1320 ms
+2019-12-05 12:24:22.042  INFO 6472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:24:22.108  INFO 6472 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:24:22.235  INFO 6472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:24:22.239  INFO 6472 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.474 seconds (JVM running for 3.453)
+2019-12-05 12:24:24.644  INFO 6472 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:24:24.645  INFO 6472 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:24:24.652  INFO 6472 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 12:24:24.776  INFO 6472 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:24:49.679  INFO 7612 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 7612 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:24:49.683  INFO 7612 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:24:50.923  INFO 7612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:24:50.932  INFO 7612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:24:50.932  INFO 7612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:24:50.934  INFO 7612 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:24:50.934  INFO 7612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:24:50.934  INFO 7612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:24:50.938  INFO 7612 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:24:51.024  INFO 7612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:24:51.025  INFO 7612 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1265 ms
+2019-12-05 12:24:51.208  INFO 7612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:24:51.272  INFO 7612 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:24:51.381  INFO 7612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:24:51.384  INFO 7612 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.371 seconds (JVM running for 3.38)
+2019-12-05 12:24:54.692  INFO 7612 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:24:54.694  INFO 7612 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:24:54.702  INFO 7612 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-05 12:24:54.808  INFO 7612 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:25:10.551  INFO 6172 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 6172 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:25:10.556  INFO 6172 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:25:11.840  INFO 6172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:25:11.849  INFO 6172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:25:11.850  INFO 6172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:25:11.852  INFO 6172 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:25:11.852  INFO 6172 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:25:11.852  INFO 6172 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:25:11.856  INFO 6172 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:25:11.940  INFO 6172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:25:11.941  INFO 6172 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1296 ms
+2019-12-05 12:25:12.128  INFO 6172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:25:12.198  INFO 6172 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:25:12.315  INFO 6172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:25:12.318  INFO 6172 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.568 seconds (JVM running for 3.534)
+2019-12-05 12:25:22.512  INFO 6172 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:25:22.512  INFO 6172 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:25:22.521  INFO 6172 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-05 12:25:22.645  INFO 6172 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:27:39.730  INFO 11564 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 11564 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:27:39.735  INFO 11564 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:27:41.275  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:27:41.285  INFO 11564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:27:41.285  INFO 11564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:27:41.287  INFO 11564 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:27:41.287  INFO 11564 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:27:41.287  INFO 11564 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:27:41.293  INFO 11564 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:27:41.384  INFO 11564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:27:41.384  INFO 11564 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1576 ms
+2019-12-05 12:27:41.610  INFO 11564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:27:41.679  INFO 11564 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:27:41.821  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:27:41.825  INFO 11564 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.785 seconds (JVM running for 3.704)
+2019-12-05 12:27:43.478  INFO 11564 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:27:43.479  INFO 11564 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:27:43.484  INFO 11564 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 12:27:43.602  INFO 11564 --- [http-nio-80-exec-1] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:28:18.630  INFO 8208 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 8208 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:28:18.635  INFO 8208 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:28:19.846  INFO 8208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:28:19.856  INFO 8208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:28:19.857  INFO 8208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:28:19.858  INFO 8208 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:28:19.859  INFO 8208 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:28:19.859  INFO 8208 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:28:19.863  INFO 8208 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:28:19.949  INFO 8208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:28:19.949  INFO 8208 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1234 ms
+2019-12-05 12:28:20.169  INFO 8208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:28:20.267  INFO 8208 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:28:20.424  INFO 8208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:28:20.427  INFO 8208 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.488 seconds (JVM running for 3.396)
+2019-12-05 12:28:25.257  INFO 8208 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:28:25.258  INFO 8208 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:28:25.265  INFO 8208 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 12:28:25.375  INFO 8208 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:30:34.870  INFO 12276 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 12276 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:30:34.875  INFO 12276 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:30:36.260  INFO 12276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:30:36.270  INFO 12276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:30:36.270  INFO 12276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:30:36.272  INFO 12276 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:30:36.272  INFO 12276 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:30:36.272  INFO 12276 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:30:36.276  INFO 12276 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:30:36.363  INFO 12276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:30:36.364  INFO 12276 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1355 ms
+2019-12-05 12:30:36.559  INFO 12276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:30:36.626  INFO 12276 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:30:36.742  INFO 12276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:30:36.746  INFO 12276 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.69 seconds (JVM running for 3.744)
+2019-12-05 12:30:39.166  INFO 12276 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:30:39.167  INFO 12276 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:30:39.173  INFO 12276 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 12:30:39.303  INFO 12276 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:33:16.741  INFO 11600 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 11600 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:33:16.746  INFO 11600 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:33:18.050  INFO 11600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:33:18.060  INFO 11600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:33:18.060  INFO 11600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:33:18.061  INFO 11600 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:33:18.062  INFO 11600 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:33:18.062  INFO 11600 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:33:18.066  INFO 11600 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:33:18.149  INFO 11600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:33:18.149  INFO 11600 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1319 ms
+2019-12-05 12:33:18.329  INFO 11600 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:33:18.394  INFO 11600 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:33:18.503  INFO 11600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:33:18.507  INFO 11600 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.458 seconds (JVM running for 3.448)
+2019-12-05 12:33:21.303  INFO 11600 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:33:21.303  INFO 11600 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:33:21.310  INFO 11600 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 12:33:21.462  INFO 11600 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:33:49.592  INFO 11600 --- [http-nio-80-exec-6] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:37:16.889  INFO 2240 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 2240 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:37:16.895  INFO 2240 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:37:18.184  INFO 2240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:37:18.193  INFO 2240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:37:18.194  INFO 2240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:37:18.196  INFO 2240 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:37:18.196  INFO 2240 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:37:18.196  INFO 2240 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:37:18.200  INFO 2240 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:37:18.287  INFO 2240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:37:18.287  INFO 2240 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1301 ms
+2019-12-05 12:37:18.469  INFO 2240 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:37:18.535  INFO 2240 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:37:18.651  INFO 2240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:37:18.654  INFO 2240 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.451 seconds (JVM running for 3.395)
+2019-12-05 12:37:24.167  INFO 2240 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:37:24.168  INFO 2240 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:37:24.177  INFO 2240 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-05 12:37:24.296  INFO 2240 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 12:38:38.502  INFO 10596 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 10596 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 12:38:38.517  INFO 10596 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 12:38:39.861  INFO 10596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 12:38:39.861  INFO 10596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 12:38:39.861  INFO 10596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 12:38:39.861  INFO 10596 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 12:38:39.861  INFO 10596 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 12:38:39.861  INFO 10596 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 12:38:39.861  INFO 10596 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 12:38:39.955  INFO 10596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 12:38:39.955  INFO 10596 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1360 ms
+2019-12-05 12:38:40.126  INFO 10596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 12:38:40.189  INFO 10596 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 12:38:40.298  INFO 10596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 12:38:40.298  INFO 10596 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.446 seconds (JVM running for 3.323)
+2019-12-05 12:38:45.424  INFO 10596 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 12:38:45.424  INFO 10596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 12:38:45.429  INFO 10596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 12:38:45.569  INFO 10596 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:00:46.225  INFO 6596 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 6596 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:00:46.230  INFO 6596 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:00:47.636  INFO 6596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:00:47.646  INFO 6596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:00:47.646  INFO 6596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:00:47.648  INFO 6596 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:00:47.648  INFO 6596 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:00:47.648  INFO 6596 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:00:47.651  INFO 6596 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:00:47.738  INFO 6596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:00:47.738  INFO 6596 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1428 ms
+2019-12-05 14:00:47.949  INFO 6596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:00:48.026  INFO 6596 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:00:48.146  INFO 6596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:00:48.150  INFO 6596 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.639 seconds (JVM running for 3.548)
+2019-12-05 14:00:54.445  INFO 6596 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:00:54.445  INFO 6596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:00:54.451  INFO 6596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 14:00:54.582  INFO 6596 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:01:44.533  INFO 5076 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 5076 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:01:44.537  INFO 5076 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:01:45.791  INFO 5076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:01:45.801  INFO 5076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:01:45.801  INFO 5076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:01:45.803  INFO 5076 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:01:45.803  INFO 5076 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:01:45.803  INFO 5076 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:01:45.807  INFO 5076 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:01:45.896  INFO 5076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:01:45.897  INFO 5076 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1263 ms
+2019-12-05 14:01:46.101  INFO 5076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:01:46.165  INFO 5076 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:01:46.284  INFO 5076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:01:46.288  INFO 5076 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.41 seconds (JVM running for 3.313)
+2019-12-05 14:01:49.463  INFO 5076 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:01:49.463  INFO 5076 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:01:49.469  INFO 5076 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 14:01:49.625  INFO 5076 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:21:29.950  INFO 10396 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 10396 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:21:29.956  INFO 10396 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:21:31.326  INFO 10396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:21:31.336  INFO 10396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:21:31.336  INFO 10396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:21:31.339  INFO 10396 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:21:31.339  INFO 10396 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:21:31.339  INFO 10396 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:21:31.343  INFO 10396 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:21:31.422  INFO 10396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:21:31.422  INFO 10396 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1381 ms
+2019-12-05 14:21:31.611  INFO 10396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:21:31.678  INFO 10396 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:21:31.820  INFO 10396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:21:31.825  INFO 10396 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.539 seconds (JVM running for 3.713)
+2019-12-05 14:21:36.551  INFO 10396 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:21:36.552  INFO 10396 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:21:36.559  INFO 10396 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 14:30:26.492  INFO 13960 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 13960 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:30:26.496  INFO 13960 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:30:27.792  INFO 13960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:30:27.801  INFO 13960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:30:27.802  INFO 13960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:30:27.803  INFO 13960 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:30:27.804  INFO 13960 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:30:27.804  INFO 13960 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:30:27.807  INFO 13960 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:30:27.889  INFO 13960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:30:27.889  INFO 13960 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1316 ms
+2019-12-05 14:30:28.065  INFO 13960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:30:28.133  INFO 13960 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:30:28.243  INFO 13960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:30:28.246  INFO 13960 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.391 seconds (JVM running for 3.355)
+2019-12-05 14:30:41.982  INFO 13960 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:30:41.982  INFO 13960 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:30:41.991  INFO 13960 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-05 14:37:55.196  INFO 12032 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 12032 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:37:55.201  INFO 12032 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:37:57.050  INFO 12032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:37:57.060  INFO 12032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:37:57.060  INFO 12032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:37:57.062  INFO 12032 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:37:57.062  INFO 12032 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:37:57.063  INFO 12032 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:37:57.068  INFO 12032 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:37:58.073  INFO 12032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:37:58.074  INFO 12032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2796 ms
+2019-12-05 14:37:58.429  INFO 12032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:37:58.553  INFO 12032 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:37:58.698  INFO 12032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:37:58.701  INFO 12032 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 4.114 seconds (JVM running for 5.992)
+2019-12-05 14:38:07.372  INFO 12032 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:38:07.372  INFO 12032 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:38:07.379  INFO 12032 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 14:39:25.793  INFO 10952 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 10952 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:39:25.798  INFO 10952 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:39:27.048  INFO 10952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:39:27.058  INFO 10952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:39:27.058  INFO 10952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:39:27.060  INFO 10952 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:39:27.060  INFO 10952 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:39:27.060  INFO 10952 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:39:27.064  INFO 10952 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:39:27.146  INFO 10952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:39:27.147  INFO 10952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1272 ms
+2019-12-05 14:39:27.329  INFO 10952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:39:27.399  INFO 10952 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:39:27.515  INFO 10952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:39:27.518  INFO 10952 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.383 seconds (JVM running for 3.323)
+2019-12-05 14:39:34.481  INFO 10952 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:39:34.481  INFO 10952 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:39:34.486  INFO 10952 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 14:39:34.787  INFO 10952 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:40:03.834  INFO 9632 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 9632 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:40:03.839  INFO 9632 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:40:05.025  INFO 9632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:40:05.035  INFO 9632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:40:05.035  INFO 9632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:40:05.037  INFO 9632 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:40:05.037  INFO 9632 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:40:05.037  INFO 9632 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:40:05.040  INFO 9632 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:40:05.138  INFO 9632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:40:05.138  INFO 9632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1214 ms
+2019-12-05 14:40:05.335  INFO 9632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:40:05.395  INFO 9632 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:40:05.503  INFO 9632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:40:05.507  INFO 9632 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.351 seconds (JVM running for 3.257)
+2019-12-05 14:40:09.345  INFO 9632 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:40:09.346  INFO 9632 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:40:09.355  INFO 9632 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 14:40:21.660  INFO 13380 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 13380 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:40:21.665  INFO 13380 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:40:22.999  INFO 13380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:40:23.009  INFO 13380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:40:23.009  INFO 13380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:40:23.011  INFO 13380 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:40:23.011  INFO 13380 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:40:23.011  INFO 13380 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:40:23.014  INFO 13380 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:40:23.139  INFO 13380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:40:23.139  INFO 13380 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1390 ms
+2019-12-05 14:40:23.400  INFO 13380 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:40:23.538  INFO 13380 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:40:23.666  INFO 13380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:40:23.670  INFO 13380 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.689 seconds (JVM running for 3.649)
+2019-12-05 14:40:24.988  INFO 13380 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:40:24.988  INFO 13380 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:40:24.995  INFO 13380 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-05 14:40:25.182  INFO 13380 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:41:00.022  INFO 8344 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 8344 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:41:00.026  INFO 8344 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:41:01.181  INFO 8344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:41:01.190  INFO 8344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:41:01.190  INFO 8344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:41:01.192  INFO 8344 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:41:01.192  INFO 8344 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:41:01.193  INFO 8344 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:41:01.196  INFO 8344 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:41:01.276  INFO 8344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:41:01.276  INFO 8344 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1167 ms
+2019-12-05 14:41:01.455  INFO 8344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:41:01.521  INFO 8344 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:41:01.630  INFO 8344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:41:01.634  INFO 8344 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.305 seconds (JVM running for 3.29)
+2019-12-05 14:41:08.095  INFO 8344 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:41:08.095  INFO 8344 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:41:08.100  INFO 8344 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 14:41:08.243  INFO 8344 --- [http-nio-80-exec-2] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:41:36.313  INFO 5604 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 5604 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:41:36.317  INFO 5604 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:41:37.603  INFO 5604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:41:37.612  INFO 5604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:41:37.612  INFO 5604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:41:37.615  INFO 5604 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:41:37.615  INFO 5604 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:41:37.616  INFO 5604 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:41:37.619  INFO 5604 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:41:37.697  INFO 5604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:41:37.698  INFO 5604 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1302 ms
+2019-12-05 14:41:37.877  INFO 5604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:41:37.959  INFO 5604 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:41:38.074  INFO 5604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:41:38.077  INFO 5604 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.423 seconds (JVM running for 3.35)
+2019-12-05 14:41:41.195  INFO 5604 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:41:41.195  INFO 5604 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:41:41.204  INFO 5604 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-05 14:41:41.361  INFO 5604 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:41:43.101  INFO 5604 --- [http-nio-80-exec-5] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:45:53.227  INFO 6936 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 6936 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:45:53.232  INFO 6936 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:45:54.453  INFO 6936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:45:54.463  INFO 6936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:45:54.463  INFO 6936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:45:54.465  INFO 6936 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:45:54.465  INFO 6936 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:45:54.465  INFO 6936 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:45:54.468  INFO 6936 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:45:54.546  INFO 6936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:45:54.547  INFO 6936 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1230 ms
+2019-12-05 14:45:54.724  INFO 6936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:45:54.789  INFO 6936 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:45:54.903  INFO 6936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:45:54.906  INFO 6936 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.39 seconds (JVM running for 3.291)
+2019-12-05 14:45:58.469  INFO 6936 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:45:58.469  INFO 6936 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:45:58.474  INFO 6936 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 14:45:58.688  INFO 6936 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:49:42.010  INFO 1688 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 1688 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:49:42.014  INFO 1688 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:49:43.206  INFO 1688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:49:43.215  INFO 1688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:49:43.216  INFO 1688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:49:43.217  INFO 1688 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:49:43.217  INFO 1688 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:49:43.218  INFO 1688 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:49:43.221  INFO 1688 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:49:43.321  INFO 1688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:49:43.322  INFO 1688 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1239 ms
+2019-12-05 14:49:43.551  INFO 1688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:49:43.611  INFO 1688 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:49:43.720  INFO 1688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:49:43.723  INFO 1688 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.368 seconds (JVM running for 3.311)
+2019-12-05 14:49:49.699  INFO 1688 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:49:49.700  INFO 1688 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:49:49.709  INFO 1688 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-05 14:50:47.745  INFO 1688 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 新用户[1]注册成功!
+2019-12-05 14:51:06.963  INFO 1688 --- [http-nio-80-exec-5] c.c.zxh.chat.controller.ChatController   : 新用户[大神]注册成功!
+2019-12-05 14:51:12.648  INFO 1688 --- [http-nio-80-exec-6] c.c.zxh.chat.controller.ChatController   : 新用户[大神]注册成功!
+2019-12-05 14:54:22.603  INFO 13060 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 13060 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:54:22.608  INFO 13060 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:54:23.817  INFO 13060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:54:23.826  INFO 13060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:54:23.827  INFO 13060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:54:23.828  INFO 13060 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:54:23.829  INFO 13060 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:54:23.829  INFO 13060 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:54:23.832  INFO 13060 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:54:23.914  INFO 13060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:54:23.915  INFO 13060 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1219 ms
+2019-12-05 14:54:24.116  INFO 13060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:54:24.181  INFO 13060 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:54:24.290  INFO 13060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:54:24.294  INFO 13060 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.392 seconds (JVM running for 3.326)
+2019-12-05 14:54:29.377  INFO 13060 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:54:29.377  INFO 13060 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:54:29.382  INFO 13060 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 14:54:29.566  INFO 13060 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 14:58:04.940  INFO 5972 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 5972 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 14:58:04.940  INFO 5972 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 14:58:06.143  INFO 5972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 14:58:06.159  INFO 5972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:58:06.159  INFO 5972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 14:58:06.159  INFO 5972 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 14:58:06.159  INFO 5972 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 14:58:06.159  INFO 5972 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 14:58:06.159  INFO 5972 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 14:58:06.237  INFO 5972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:58:06.237  INFO 5972 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1203 ms
+2019-12-05 14:58:06.409  INFO 5972 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:58:06.471  INFO 5972 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 14:58:06.596  INFO 5972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 14:58:06.596  INFO 5972 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.325 seconds (JVM running for 3.364)
+2019-12-05 14:58:10.734  INFO 5972 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:58:10.734  INFO 5972 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:58:10.739  INFO 5972 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-12-05 14:58:10.908  INFO 5972 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...
+2019-12-05 15:03:09.157  INFO 2764 --- [main] cn.com.zxh.chat.ChatApplication          : Starting ChatApplication on DESKTOP-JJE9HDG with PID 2764 (E:\IdeaProject\chat\target\classes started by xmzxh in E:\IdeaProject\chat)
+2019-12-05 15:03:09.163  INFO 2764 --- [main] cn.com.zxh.chat.ChatApplication          : No active profile set, falling back to default profiles: default
+2019-12-05 15:03:10.499  INFO 2764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-12-05 15:03:10.509  INFO 2764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 15:03:10.510  INFO 2764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-05 15:03:10.512  INFO 2764 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-12-05 15:03:10.512  INFO 2764 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-05 15:03:10.512  INFO 2764 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-05 15:03:10.516  INFO 2764 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-12-05 15:03:10.610  INFO 2764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 15:03:10.611  INFO 2764 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1373 ms
+2019-12-05 15:03:10.789  INFO 2764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 15:03:10.851  INFO 2764 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-05 15:03:10.961  INFO 2764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-12-05 15:03:10.964  INFO 2764 --- [main] cn.com.zxh.chat.ChatApplication          : Started ChatApplication in 2.453 seconds (JVM running for 3.375)
+2019-12-05 15:03:22.553  INFO 2764 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 15:03:22.554  INFO 2764 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 15:03:22.563  INFO 2764 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-05 15:03:22.785  INFO 2764 --- [http-nio-80-exec-3] c.c.zxh.chat.controller.ChatController   : 检索所有用户...

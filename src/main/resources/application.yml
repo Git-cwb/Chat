@@ -1,0 +1,10 @@
+#服务器配置
+server:
+  port: 80
+  session-timeout: 60
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+
+#日志配置
+logging:
+  file: src\main\resources\log\chat.log

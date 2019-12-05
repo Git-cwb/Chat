@@ -1,0 +1,9 @@
+role:2,userName:小白,#
+role:1,userName:撸猫有限公司,#
+role:1,userName:黑黑有限公司,#
+role:2,userName:小黑,#
+role:2,userName:小红,#
+role:0,userName:一个客服,#
+role:0,userName:客服2号,#
+role:2,userName:1,#
+role:0,userName:大神,#
