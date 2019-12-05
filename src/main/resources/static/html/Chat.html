@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.springframework.org/schema/mvc">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天</title>
+    <style>
+        div div {
+            background: blanchedalmond;
+            width: 90%;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-left: 5%;
+            line-height: 30px;
+            word-wrap: break-word;
+            word-break: break-all;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 70px;
+            width: 99%;
+            font-size: 15px;
+            float: left;
+        }
+
+        table {
+            margin-top: 50px;
+        }
+
+        button {
+            width: 25%;
+            height: 30px;
+            float: left;
+        }
+
+        b {
+            margin-top: 5px;
+            margin-left: 5px;
+            font-size: 10px;
+            color: dimgray;
+            background: lightgrey;
+        }
+
+        i {
+            font-style: normal;
+        }
+    </style>
+
+</head>
+<body>
+<div>欢迎您：<i /> ！</div>
+<table align="center" border="1 solid" width="80%">
+
+    <!--标题-->
+    <tr>
+        <td width="20%" align="center" height="50px">聊天对象</td>
+        <td width="60%" align="center">聊天内容</td>
+        <td width="20%" align="center">在线用户：<i id="onlineUser">0</i></td>
+    </tr>
+
+    <!--信息内容-->
+    <tr>
+        <!--聊天对象版块-->
+        <td rowspan="10" height="550px" valign="top">
+
+
+            <div style="overflow:auto;height: 600px" id="chatUsers">
+                <!--聊天对象-->
+
+            </div>
+
+            <!--聊天内容版块-->
+        <td valign="top" height="500px">
+
+            <!--聊天对象 信息-->
+            <b>正在与: <i id="receiver"></i> 聊天 </b>
+            <span id="time" style="margin-top: 5px;margin-left: 5px;font-size: 10px;color: dimgray;"></span>
+
+            <div style="overflow:auto;height: 500px" id="chatContent">
+                <!--聊天内容-->
+                <div>请选择聊天对象！！</div>
+            </div>
+
+        </td>
+
+        <!--在线用户版块-->
+        <td rowspan="10" valign="top">
+            <div style="overflow:auto;height: 600px" id="onlineUsers">
+                <!--在线用户-->
+            </div>
+        </td>
+    </tr>
+
+    <!--操作按钮-->
+    <tr>
+        <td height="100px" valign="top">
+            <!--发言框-->
+            <textarea valign="top" height="100px" placeholder="消息内容..."></textarea>
+            <!--操作按钮-->
+            <a th:href="@{/}">
+                <button style="background: red">退出</button>
+            </a>
+            <button style="background: darkgray" >聊天记录</button>
+            <button style="background: lawngreen" >清屏</button>
+            <button style="background: deepskyblue" >发送</button>
+        </td>
+    </tr>
+</table>
+<script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"/>
+<script type="text/javascript" src="../js/controller/chatController.js"/>
+</body>
+</html>
