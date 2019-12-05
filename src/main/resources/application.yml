@@ -6,5 +6,5 @@ server:
   tomcat.uri-encoding: UTF-8
 
 #日志配置
-logging:
-  file: src\main\resources\log\chat.log
+#logging:
+#  file: src\main\resources\log\chat.log

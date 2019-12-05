@@ -47,8 +47,8 @@
     </style>
 
 </head>
-<body>
-<div>欢迎您：<i /> ！</div>
+<body ng-app="chat" ng-controller="chatController">
+<div>欢迎您：<i  />{{userName}} ！</div>
 <table align="center" border="1 solid" width="80%">
 
     <!--标题-->
@@ -106,7 +106,7 @@
         </td>
     </tr>
 </table>
-<script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"/>
-<script type="text/javascript" src="../js/controller/chatController.js"/>
+<script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"></script>
+<script type="text/javascript" src="../js/controller/chatController.js"></script>
 </body>
 </html>

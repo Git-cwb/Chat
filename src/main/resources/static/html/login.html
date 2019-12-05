@@ -24,30 +24,30 @@
 <body ng-app="chat" ng-controller="chatController">
 <h1>选择要登录的角色：</h1>
 <br>
-<div ng-repeat="(key,userList) in userMap">
+<div ng-repeat="(role,userList) in userMap">
 
-    <div ng-if="key === '0'">
+    <div ng-if="role === '0'">
         <h3>客服：</h3>
-        <a ng-repeat="userName in userList">{{userName}}</a>
+        <a ng-repeat="userName in userList" ng-href="chat.html?userName=$userName&role=0">{{userName}}</a>
         <hr>
     </div>
 
 
-    <div ng-if="key === '1'">
+    <div ng-if="role === '1'">
         <h3>企业：</h3>
         <a ng-repeat="userName in userList">{{userName}}</a>
         <hr>
     </div>
 
 
-    <div ng-if="key === '2'">
+    <div ng-if="role === '2'">
         <h3>人才：</h3>
         <a ng-repeat="userName in userList">{{userName}}</a>
     </div>
 </div>
 
 </body>
-<script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"/>
-<script type="text/javascript" src="../js/controller/chatController.js"/>
+<script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"></script>
+<script type="text/javascript" src="../js/controller/chatController.js"></script>
 
 </html>
