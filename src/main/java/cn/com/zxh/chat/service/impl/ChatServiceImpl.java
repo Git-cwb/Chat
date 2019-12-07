@@ -1,7 +1,10 @@
 package cn.com.zxh.chat.service.impl;
 
+import cn.com.zxh.chat.controller.ChatController;
 import cn.com.zxh.chat.dao.ChatDao;
 import cn.com.zxh.chat.service.ChatService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

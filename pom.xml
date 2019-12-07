@@ -35,6 +35,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!--angular js-->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>angularjs</artifactId>
+            <version>1.7.8</version>
+        </dependency>
     </dependencies>
 
     <build>

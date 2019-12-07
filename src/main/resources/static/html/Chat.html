@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>聊天</title>
     <style>
-        div div {
+        .div {
             background: blanchedalmond;
             width: 90%;
             border-radius: 5px;
@@ -47,15 +47,16 @@
     </style>
 
 </head>
-<body ng-app="chat" ng-controller="chatController">
-<div>欢迎您：<i  />{{userName}} ！</div>
+<body ng-app="chat" ng-controller="chatController" ng-init="inChat()">
+
+<div>欢迎您：<i>{{userName}}</i> ！</div>
 <table align="center" border="1 solid" width="80%">
 
     <!--标题-->
     <tr>
-        <td width="20%" align="center" height="50px">聊天对象</td>
+        <td width="20%" align="center" height="50px">正在聊天</td>
         <td width="60%" align="center">聊天内容</td>
-        <td width="20%" align="center">在线用户：<i id="onlineUser">0</i></td>
+        <td width="20%" align="center">可选聊天对象</td>
     </tr>
 
     <!--信息内容-->
@@ -66,6 +67,7 @@
 
             <div style="overflow:auto;height: 600px" id="chatUsers">
                 <!--聊天对象-->
+                <div class="div" ng-repeat="value in chatSet" ng-click="addChatUser(userName,value)">{{value}}</div>
 
             </div>
 
@@ -73,40 +75,50 @@
         <td valign="top" height="500px">
 
             <!--聊天对象 信息-->
-            <b>正在与: <i id="receiver"></i> 聊天 </b>
-            <span id="time" style="margin-top: 5px;margin-left: 5px;font-size: 10px;color: dimgray;"></span>
-
+            <b>正在与: <i>{{receiver}}</i> 聊天 </b>
+            <span style="margin-top: 5px;margin-left: 5px;font-size: 10px;color: dimgray;">{{time}}</span>
             <div style="overflow:auto;height: 500px" id="chatContent">
                 <!--聊天内容-->
-                <div>请选择聊天对象！！</div>
+                <div class="div" ng-repeat="map in chatList"><i style="font-size: 10px;color: aqua;">{{map.sender}}:{{map.time}}</i><br>{{map.message}}
+                </div>
             </div>
 
         </td>
 
-        <!--在线用户版块-->
-        <td rowspan="10" valign="top">
-            <div style="overflow:auto;height: 600px" id="onlineUsers">
-                <!--在线用户-->
+        <!--可聊用户版块-->
+        <td rowspan="10" valign="top" height="500px">
+            <div style="height: 330px" id="onlineUsers" ng-repeat="(role,users) in userMap">
+                <!--可聊用户-->
+                <div ng-if="role === '0'">客服：</div>
+                <div ng-if="role === '1'">企业：</div>
+                <div ng-if="role === '2'">人才：</div>
+                <hr>
+                <div style="overflow:auto;height: 270px">
+                    <div class="div" ng-repeat="user in users" ng-click="addChatUser(userName,user)">{{user}}</div>
+                </div>
             </div>
         </td>
     </tr>
 
-    <!--操作按钮-->
+    <!--发言模块-->
     <tr>
         <td height="100px" valign="top">
             <!--发言框-->
-            <textarea valign="top" height="100px" placeholder="消息内容..."></textarea>
+            <textarea valign="top" height="100px" placeholder="消息内容..." ng-model="msg"></textarea>
             <!--操作按钮-->
-            <a th:href="@{/}">
+            <a ng-href="login.html">
                 <button style="background: red">退出</button>
             </a>
-            <button style="background: darkgray" >聊天记录</button>
-            <button style="background: lawngreen" >清屏</button>
-            <button style="background: deepskyblue" >发送</button>
+            <button style="background: darkgray" ng-click="findMsg(userName,receiver)">聊天记录</button>
+            <button style="background: lawngreen" ng-click="clear()">清屏</button>
+            <button style="background: deepskyblue" ng-click="sendMsg(userName,receiver,time,msg)">发送</button>
         </td>
     </tr>
 </table>
 <script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/service/chatService.js"></script>
 <script type="text/javascript" src="../js/controller/chatController.js"></script>
 </body>
 </html>

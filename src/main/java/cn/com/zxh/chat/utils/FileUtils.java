@@ -24,6 +24,7 @@ public class FileUtils {
         try {
             //指定写入路径
             writeName = new File("src\\main\\resources\\data\\" + file + ".txt");
+            writeName.createNewFile();
             if (append == 0) {
                 //覆盖
                 writer = new BufferedWriter(new FileWriter(writeName));
@@ -64,6 +65,7 @@ public class FileUtils {
         try {
             //指定读取路径
             readName = new File("src\\main\\resources\\data\\" + file + ".txt");
+            readName.createNewFile();
             reader = new BufferedReader(new FileReader(readName));
             String line = "";
             line = reader.readLine();

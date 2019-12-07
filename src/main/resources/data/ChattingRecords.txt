@@ -1,0 +1,5 @@
+message:666,receiver:客服2号,sender:小黑,time:2019-11-30  10：15：22,#
+message:...,receiver:客服2号,sender:小黑,time:2019-11-30  10：16：5,#
+message:...,receiver:客服2号,sender:小白,time:2019-11-30  10：16：27,#
+message:...,receiver:小黑,sender:客服1号,time:2019-11-30  10：16：31,#
+message:...,receiver:小黑,sender:客服1号,time:2019-11-30  10：17：16,#
