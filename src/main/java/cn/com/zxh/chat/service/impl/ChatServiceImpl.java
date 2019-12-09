@@ -31,9 +31,10 @@ public class ChatServiceImpl implements ChatService {
         map.put("sender", sender);
         map.put("receiver", receiver);
         map.put("time", time);
-        map.put("msg", msg);
+        map.put("message", msg);
         //将该条聊天信息 存入数据库中
         chatDao.addMsg(map);
+        System.out.println(map);
         return map;
     }
 

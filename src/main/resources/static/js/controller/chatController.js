@@ -1,5 +1,7 @@
 //控制层
-app.controller("chatController", function ($scope, $interval, $filter, chatService) {
+app.controller("chatController", function ($scope, $interval, $filter, $timeout, chatService) {
+
+
 
     //访问登录界面
     $scope.login = function () {
@@ -65,15 +67,15 @@ app.controller("chatController", function ($scope, $interval, $filter, chatServi
                 console.log("获取[" + sender + "]与[" + receiver + "]的聊天记录.");
             }).catch(function (error) {
             console.log("[" + sender + "]获取记录失败.")
-        })
+        });
+
+        var that = this;
+        $timeout(function(){
+            that.newChat();
+        },100);
     };
 
-    //清屏
-    $scope.clear = function () {
-        $scope.chatList = null;
-        $scope.msg = null;
-        console.log("清屏")
-    };
+
 
     //发言
     $scope.sendMsg = function (sender, receiver, time, msg) {
@@ -90,33 +92,50 @@ app.controller("chatController", function ($scope, $interval, $filter, chatServi
         }
 
         //保存数据
-        alert("保存数据");
         var map = null;
         chatService.sendMsg(sender, receiver, time, msg).then(
             function (response) {
-                 map = response.data;
+                map = response.data;
+                $scope.chatList.push(map);
+                // $scope.$apply();
+
+                console.log("[" + sender + "]向[" + receiver + "]发言：" + msg);
             }).catch(
-                function (reason) {
-                    console.log("000")
-                });
-        //展示数据
-        //发送者
-        if ($scope.userName === sender) {
-            $scope.chatList.unshift(map);
-        }
-        //接收者
-        if ($scope.userName === receiver) {
-            //发送者是当前聊天对象
-            if ($scope.receiver === sender) {
-                $scope.chatList.unshift(map);
-            }
-            //发送者不是当前聊天对象
-            if ($scope.receiver !== sender) {
-
-            }
-        }
-
+            function (error) {
+                console.log("[" + sender + "]消息发送失败.")
+            });
         //清空输入框
+        $scope.msg = null;
+        var that = this;
+        $timeout(function(){
+            that.newChat();
+        },10);
+    };
+
+
+        // //展示数据
+        // //发送者
+        // if ($scope.userName === map.sender) {
+        //     $scope.chatList.push(map);
+        // }
+        // //接收者
+        // if ($scope.userName === receiver) {
+        //     //发送者是当前聊天对象
+        //     if ($scope.receiver === sender) {
+        //         $scope.chatList.push(map);
+        //     }
+        //     //发送者不是当前聊天对象
+        //     if ($scope.receiver !== sender) {
+        //
+        //     }
+        // }
+
+
+
+
+    //清屏
+    $scope.clear = function () {
+        $scope.chatList = null;
         $scope.msg = null;
     };
 
@@ -124,6 +143,12 @@ app.controller("chatController", function ($scope, $interval, $filter, chatServi
     $scope.Timer = $interval(function () {
         $scope.time = $filter('date')(new Date(), 'yyyy-MM-dd HH:mm:ss');
     }, 1000);
+
+    //滚动条置低
+    $scope.newChat =function () {
+        var chatContent = document.getElementById('chatContent');
+        chatContent.scrollTop = chatContent.scrollHeight;
+    };
 
 
 });
