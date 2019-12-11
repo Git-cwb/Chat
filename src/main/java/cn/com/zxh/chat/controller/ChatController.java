@@ -3,21 +3,25 @@ package cn.com.zxh.chat.controller;
 import cn.com.zxh.chat.service.ChatService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import javax.servlet.http.HttpServletRequest;
+import javax.websocket.Session;
+import java.util.*;
 
 //聊天控制层
 @RestController
+@Controller
 @RequestMapping("/chat")
 public class ChatController {
 
     @Resource
     private ChatService chatService;
+
 
     //开启日志
     private static final Logger log = LoggerFactory.getLogger(ChatController.class);
@@ -82,8 +86,28 @@ public class ChatController {
      */
     @RequestMapping("/findUser")
     public Map<String, List> findUser() {
-        log.info("检索所有用户...");
+        log.info("获取所有用户信息...");
         return chatService.findUser();
     }
+
+    /**
+     * 获取 聊天记录数
+     *
+     * @param sender   发送者
+     * @param receiver 接收者
+     * @return 聊天记录数
+     */
+    @RequestMapping("/findChatCount")
+    public List findChatCount(String sender, String receiver) {
+        List list = new ArrayList<>();
+        try {
+            list.add(chatService.findMsg(sender, receiver).size()) ;
+            list.add(chatService.findUserByUser(sender));
+        } catch (Exception e) {
+            log.info("[" + sender + "]获取信息失败，异常为：" + e);
+        }
+        return list;
+    }
+
 
 }

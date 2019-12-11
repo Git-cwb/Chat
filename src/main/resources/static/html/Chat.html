@@ -44,12 +44,15 @@
         i {
             font-style: normal;
         }
+
     </style>
 
 </head>
-<body ng-app="chat" ng-controller="chatController" ng-init="inChat()">
+<body ng-app="chat" ng-controller="chatController" ng-init="inChat();upChat()">
 
 <div>欢迎您：<i>{{userName}}</i> ！</div>
+<button ng-click="stop()">停止</button>
+<button ng-click="start()">开始</button>
 <table align="center" border="1 solid" width="80%">
 
     <!--标题-->
@@ -66,7 +69,8 @@
 
 
             <div style="overflow:auto;height: 600px" id="chatUsers">
-                <!--聊天对象-->
+                <!--正在聊天对象-->
+
                 <div class="div" ng-repeat="value in chatSet" ng-click="addChatUser(userName,value)">{{value}}</div>
 
             </div>
