@@ -1,7 +1,6 @@
 //控制层
 app.controller("chatController", function ($scope, $interval, $filter, $timeout, $rootScope, chatService) {
 
-
     //访问登录界面
     $scope.login = function () {
         chatService.findUser().then(
@@ -79,7 +78,6 @@ app.controller("chatController", function ($scope, $interval, $filter, $timeout,
         this.newChat(100);
     };
 
-
     //发言
     $scope.sendMsg = function (sender, receiver, time, msg) {
         //非空判断
@@ -109,7 +107,6 @@ app.controller("chatController", function ($scope, $interval, $filter, $timeout,
         this.newChat(10);
     };
 
-
     //实时更新聊天页面
     $scope.upChat = function () {
         //初始化this 防止找不到相关函数
@@ -117,54 +114,33 @@ app.controller("chatController", function ($scope, $interval, $filter, $timeout,
 
         //轮询 实时更新聊天内容
         var t = $interval(function () {
-            console.log("更新");
+            // console.log("更新");
             var receiver = $scope.receiver;
 
             //获取取当前用户与当前聊天对象的聊天记录数
             chatService.findChatCount($scope.userName, receiver).then(
                 function (response) {
                     if (receiver !== undefined) {
-                        // console.log(response.data[0]);
-                        // console.log($scope.chatList.length);
                         if (response.data[0] !== $scope.chatList.length) {
                             //当数据库的聊天记录与页面上的聊天记录不符合时，更新页面数据
                             thar.findMsg($scope.userName, receiver);
                             console.log("[" + receiver + "]发来消息.")
                         }
                     }
-
-                    // response.data[1]
-                    //     if ($scope.chatSet.toString() === response.data[1].toString()){
-                    //         $scope.chatSet=response.data[1]
-                    // $scope.chatSet.unshift(receiver);
-                    //     }
-                    angular.forEach(response.data[1],function(user,index){
-                        if (!$scope.chatSet.toString().indexOf(user) === -1){
+                    //更新聊天对象列表
+                    angular.forEach(response.data[1], function (user, index) {
+                        if (!$scope.chatSet.toString().indexOf(user) === -1) {
                             // $scope.chatSet=response.data[1]
                             $scope.chatSet.unshift(response.data[1][index]);
                         }
                     });
-                    // console.log($scope.chatSet.toString());
-                    // console.log(response.data[1].toString());
-                    // console.log(response.data[1].toString()===$scope.chatSet.toString())
                 }).catch(function (error) {
                 console.log("接收[" + $scope.receiver + "]的消息失败,原因：" + error);
             });
 
 
         }, 1000);
-
-        //停止轮询
-        $scope.stop = function () {
-            $interval.cancel(t);
-        };
-
     };
-    //继续轮询
-    $scope.start = function () {
-        this.upChat();
-    };
-
 
     //清屏
     $scope.clear = function (t) {
@@ -185,20 +161,4 @@ app.controller("chatController", function ($scope, $interval, $filter, $timeout,
         }, t);
 
     };
-
-
-    $scope.getQueryVariable = function (variable) {
-        var query = window.location.search.substring(1);
-        console.log("url:" + query);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            if (pair[0] === variable) {
-                return decodeURI(pair[1]);
-            }
-        }
-        return false;
-    };
-
-
 });

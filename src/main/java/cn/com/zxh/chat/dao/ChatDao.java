@@ -3,6 +3,9 @@ package cn.com.zxh.chat.dao;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author xmzxh
+ */
 public interface ChatDao {
     /**
      * 存储聊天信息

@@ -46,13 +46,11 @@
         }
 
     </style>
-
 </head>
 <body ng-app="chat" ng-controller="chatController" ng-init="inChat();upChat()">
 
 <div>欢迎您：<i>{{userName}}</i> ！</div>
-<button ng-click="stop()">停止</button>
-<button ng-click="start()">开始</button>
+
 <table align="center" border="1 solid" width="80%">
 
     <!--标题-->
@@ -67,26 +65,23 @@
         <!--聊天对象版块-->
         <td rowspan="10" height="550px" valign="top">
 
-
             <div style="overflow:auto;height: 600px" id="chatUsers">
                 <!--正在聊天对象-->
-
                 <div class="div" ng-repeat="value in chatSet" ng-click="addChatUser(userName,value)">{{value}}</div>
-
             </div>
+        </td>
 
-            <!--聊天内容版块-->
+        <!--聊天内容版块-->
         <td valign="top" height="500px">
 
             <!--聊天对象 信息-->
             <b>正在与: <i>{{receiver}}</i> 聊天 </b>
             <span style="margin-top: 5px;margin-left: 5px;font-size: 10px;color: dimgray;">{{time}}</span>
-            <div style="overflow:auto;height: 500px" id="chatContent" >
+            <div style="overflow:auto;height: 500px" id="chatContent">
                 <!--聊天内容-->
                 <div class="div" ng-repeat="map in chatList"><i style="font-size: 10px;color: aqua;">{{map.sender}}:{{map.time}}</i><br>{{map.message}}
                 </div>
             </div>
-
         </td>
 
         <!--可聊用户版块-->
@@ -119,6 +114,7 @@
         </td>
     </tr>
 </table>
+
 <script src="https://cdn.staticfile.org/angular.js/1.7.8/angular.min.js"></script>
 <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="../js/base.js"></script>
